@@ -21,7 +21,7 @@
 		t.update_time
 	</sql>
 
-	<insert id="saveOrUpdate" parameterType="com.xxl.job.admin.business.model.XxlJobLogReport" useGeneratedKeys="true" keyProperty="id" >
+	<insert id="saveOrUpdate" parameterType="com.xxl.job.admin.business.model.XxlJobLogReport" >
 		INSERT INTO xxl_job_log_report (
 			trigger_day,
 			running_count,
